@@ -1,0 +1,31 @@
+//created on: Jun 11, 2014
+package org.specialtripsagency
+
+//list any import classes here.
+import org.specialtripsagency.BookingObject
+import org.specialtripsagency.Applicant
+import org.specialtripsagency.Flight
+import org.specialtripsagency.Hotel
+
+
+//declare any global variables here
+
+rule "ApplicantWithoutEmailAddress"
+
+    when
+        //conditions
+        applicant : Applicant(emailAddress == null)
+    then
+        //actions
+		System.out.println("Warning!!! applicant object does not have an email address");
+end
+
+rule "FlightWithoutRatePerPerson"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+        flight : Flight(ratePerPerson == 0 || ratePerPerson == null || ratePerPerson > 10000)
+    then
+        //actions
+		System.out.println("Warning!!! flight object does not have a valid price.. The price is: [" + flight.getRatePerPerson() + "]");
+end
