@@ -1,5 +1,5 @@
 <scenario>
-  <name>ObjectValidationTest.scenario</name>
+  <name>FlightWithoutRatePerPersonRuleTest.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
