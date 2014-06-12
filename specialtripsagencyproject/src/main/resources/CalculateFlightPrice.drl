@@ -5,8 +5,6 @@ package org.specialtripsagency
 import org.specialtripsagency.BookingObject
 import org.specialtripsagency.Applicant
 import org.specialtripsagency.Flight
-import org.specialtripsagency.Hotel
-import org.specialtripsagency.TravelDetails
 
 
 //declare any global variables here
@@ -21,8 +19,8 @@ rule "TotalTravelers"
         bookingObject : BookingObject(totalPrice == 0)
     then
         //actions
-        modify(bookingObject) {setTotalPrice(ratePerPerson)};
+        modify(bookingObject) {setTotalPrice(flight.getRatePerPerson())};
         System.out.println("Running TotalTravelers Rule...");
-        System.out.println("\t\t ratePerPerson= "+ ratePerPerson);
+        //System.out.println("\t\t ratePerPerson= "+ ratePerPerson);
         System.out.println("\t\t Total price in bookingObject is ["+ bookingObject.getTotalPrice() + "]");
 end
