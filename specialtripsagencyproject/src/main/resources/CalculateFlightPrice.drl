@@ -19,7 +19,7 @@ rule "TotalTravelersPriceCheck"
         bookingObject : BookingObject(totalPrice == 0)
     then
         //actions
-        modify(bookingObject) {setTotalPrice(flight.getRatePerPerson() * applicant.getNumberOfTravelers())};
+        modify(bookingObject) {setTotalPrice((flight.getRatePerPerson() + flight.getPriceDiscount()) * applicant.getNumberOfTravelers())};
         System.out.println("Running TotalTravelers Rule...");
         System.out.println("\t\t ratePerPerson= "+ flight.getRatePerPerson());
         System.out.println("\t\t Total price in bookingObject is ["+ bookingObject.getTotalPrice() + "]");
