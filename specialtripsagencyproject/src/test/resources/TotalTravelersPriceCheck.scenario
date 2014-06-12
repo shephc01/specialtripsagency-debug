@@ -1,5 +1,5 @@
 <scenario>
-  <name>FlightPriceCheckRule.scenario</name>
+  <name>TotalTravelersPriceCheck.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -9,6 +9,11 @@
         <field-data>
           <name>numberOfTravelers</name>
           <value>2</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>emailAddress</name>
+          <value>jon2@gmail.com</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
