@@ -17,14 +17,12 @@
           <nature>2</nature>
         </field-data>
         <field-data>
-          <name>priceDiscount</name>
-          <value></value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
           <name>bookingId</name>
           <value>1234</value>
           <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>this</name>
         </field-data>
       </fieldData>
       <name>bookingObject</name>
@@ -97,13 +95,13 @@
   <imports>
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
-        <type>org.specialtripsagency.BookingObject</type>
-      </org.drools.workbench.models.datamodel.imports.Import>
-      <org.drools.workbench.models.datamodel.imports.Import>
         <type>org.specialtripsagency.Applicant</type>
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>org.specialtripsagency.Flight</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.specialtripsagency.BookingObject</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
