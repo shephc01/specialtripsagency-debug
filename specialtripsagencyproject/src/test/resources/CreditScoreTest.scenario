@@ -72,7 +72,19 @@
           <fieldName>bookingId</fieldName>
           <expected>1234</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>applicant</fieldName>
+          <expected>=applicant</expected>
+          <operator>==</operator>
+          <nature>2</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>availableFlights</fieldName>
+          <expected>=flight</expected>
+          <operator>==</operator>
+          <nature>2</nature>
         </expect-field>
       </fieldValues>
       <name>bookingObject</name>
