@@ -10,7 +10,7 @@ import org.specialtripsagency.Flight
 //declare any global variables here
 
 
-rule "TotalTravelers"
+rule "TotalTravelersPriceCheck"
 
     when
         //conditions
