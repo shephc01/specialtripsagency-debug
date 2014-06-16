@@ -20,7 +20,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>reason</fieldName>
-          <expected></expected>
+          <expected>Sorry!!! We do not provide services from this destination.</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
