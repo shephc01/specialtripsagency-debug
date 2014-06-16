@@ -12,6 +12,7 @@ import org.specialtripsagency.Hotel
 rule "ApplicantWithoutEmailAddress"
 
     ruleflow-group "rejection"
+    no-loop true
 
     when
         //conditions
