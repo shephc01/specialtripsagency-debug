@@ -1,7 +1,10 @@
 import java.lang.Number;
+import org.specialtripsagency.Flight;
+import org.specialtripsagency.Rejection;
 
 rule "FlightObjectWithoutRatePerPerson"
 	dialect "mvel"
 	when
+		Flight( ratePerPerson <= 0 || ratePerPerson >= 2000 )
 	then
 end
