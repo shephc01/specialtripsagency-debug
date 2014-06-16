@@ -1,5 +1,5 @@
 <scenario>
-  <name>TotalTravelersPriceCheck.scenario</name>
+  <name>TotalTravelersPriceCheckTest.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
