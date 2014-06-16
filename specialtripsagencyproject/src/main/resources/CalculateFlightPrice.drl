@@ -10,20 +10,20 @@ import org.specialtripsagency.Flight
 //declare any global variables here
 
 
-rule "TotalTravelersPriceCheck"
-
-    ruleflow-group "flightprice"
-    no-loop true
-
-    when
-        //conditions
-        applicant : Applicant(numberOfTravelers > 1)
-        flight : Flight(ratePerPerson >  0)
-        bookingObject : BookingObject(totalPrice == 0)
-    then
-        //actions
-        modify(bookingObject) {setTotalPrice(flight.getRatePerPerson() * applicant.getNumberOfTravelers())};
-        System.out.println("\nRunning TotalTravelers Rule...");
-        System.out.println("\t\t ratePerPerson= "+ flight.getRatePerPerson());
-        System.out.println("\t\t Total price in bookingObject is ["+ bookingObject.getTotalPrice() + "]");
-end
+//rule "TotalTravelersPriceCheck"
+//
+//    ruleflow-group "flightprice"
+//    no-loop true
+//
+//    when
+//        //conditions
+//        applicant : Applicant(numberOfTravelers > 1)
+//        flight : Flight(ratePerPerson >  0)
+//        bookingObject : BookingObject(totalPrice == 0)
+//    then
+//        //actions
+//        modify(bookingObject) {setTotalPrice(flight.getRatePerPerson() * applicant.getNumberOfTravelers())};
+//        System.out.println("\nRunning TotalTravelers Rule...");
+//        System.out.println("\t\t ratePerPerson= "+ flight.getRatePerPerson());
+//        System.out.println("\t\t Total price in bookingObject is ["+ bookingObject.getTotalPrice() + "]");
+//end
