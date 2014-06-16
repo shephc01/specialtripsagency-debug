@@ -7,14 +7,14 @@ rule "CalculateTotalPriceBasedOnDiscountProvided"
 	salience -10
 
 	when
-		applicant: Applicant()
-		flight: Flight(ratePerPerson != null)
-		bookingObject: BookingObject()
+		tempApplicantObj: Applicant(numberOfTravelers > 0)
+		flight: Flight(ratePerPerson > 0 && priceDiscount > 0)
+		bookingObject: BookingObject(applicant==tempApplicantObj, availableFlights==flight)
 	then
 		System.out.println("Running CalculateTotalPriceBasedOnDiscountProvided Rule... Calculating discount");
 		modify(bookingObject) {setTotalPrice(
 				bookingObject.getTotalPrice() +
-				(flight.getRatePerPerson() - flight.getPriceDiscount()) * applicant.getNumberOfTravelers())};
+				(flight.getRatePerPerson() - flight.getPriceDiscount()) * tempApplicantObj.getNumberOfTravelers())};
 end
 		
 	
