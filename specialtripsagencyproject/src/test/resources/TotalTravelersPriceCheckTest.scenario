@@ -36,11 +36,6 @@
       <type>BookingObject</type>
       <fieldData>
         <field-data>
-          <name>totalPrice</name>
-          <value></value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
           <name>applicant</name>
           <value>=applicant</value>
           <nature>2</nature>
