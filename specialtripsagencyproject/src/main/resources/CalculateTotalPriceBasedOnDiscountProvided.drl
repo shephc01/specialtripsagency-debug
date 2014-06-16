@@ -1,3 +1,5 @@
+package org.specialtripsagency
+
 import org.specialtripsagency.BookingObject
 import org.specialtripsagency.Applicant
 import org.specialtripsagency.Flight
