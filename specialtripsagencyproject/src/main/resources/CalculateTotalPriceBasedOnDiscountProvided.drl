@@ -7,6 +7,7 @@ import org.specialtripsagency.Flight
 rule "CalculateTotalPriceBasedOnDiscountProvided"
 	
 	salience -10
+	no-loop true
 
 	when
 		tempApplicantObj: Applicant(numberOfTravelers > 0)
