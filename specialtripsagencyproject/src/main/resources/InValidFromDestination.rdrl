@@ -6,9 +6,9 @@ import org.specialtripsagency.TravelDetails;
 rule "InValidFromDestination"
 	dialect "mvel"
 	when
-		TravelDetails( fromDestination == "Congo" )
+		TravelDetails( fromDestination not in ( "London", "Gatwick", "Farnborough" ) )
 	then
 		Rejection fact0 = new Rejection();
-		fact0.setReason( "Invalid 'From' Destination" );
+		fact0.setReason( "Sorry!!! We do not provide services from this destination." );
 		insert( fact0 );
 end
