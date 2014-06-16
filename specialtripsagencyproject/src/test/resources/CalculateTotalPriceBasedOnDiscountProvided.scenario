@@ -61,7 +61,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>totalPrice</fieldName>
-          <expected>3001</expected>
+          <expected>3000</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
