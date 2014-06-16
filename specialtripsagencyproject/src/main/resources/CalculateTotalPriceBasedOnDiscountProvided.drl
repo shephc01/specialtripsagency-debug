@@ -18,6 +18,7 @@ rule "CalculateTotalPriceBasedOnDiscountProvided"
 		modify(bookingObject) {setTotalPrice(
 				bookingObject.getTotalPrice() +
 				(flight.getRatePerPerson() - flight.getPriceDiscount()) * tempApplicantObj.getNumberOfTravelers())};
+		System.out.println("Calculated Total is: [" + bookingObject.getTotalPrice() + "]");
 end
 		
 	
