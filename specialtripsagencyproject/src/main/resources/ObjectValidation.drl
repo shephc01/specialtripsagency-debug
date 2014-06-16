@@ -13,7 +13,7 @@ rule "ApplicantWithoutEmailAddress"
 
     when
         //conditions
-        applicant : Applicant(emailAddress == null)
+        applicant : Applicant(emailAddress == null || emailAddress.matches(".*[@].*") )
     then
         //actions
 	System.out.println("\nRunning ApplicantWithoutEmailAddress RULE");
