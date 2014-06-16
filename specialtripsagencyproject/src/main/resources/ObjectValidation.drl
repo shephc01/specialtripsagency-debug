@@ -11,6 +11,8 @@ import org.specialtripsagency.Hotel
 
 rule "ApplicantWithoutEmailAddress"
 
+    ruleflow-group "rejection"
+
     when
         //conditions
 	// check that the email address is not null and email address contains '@' in it
