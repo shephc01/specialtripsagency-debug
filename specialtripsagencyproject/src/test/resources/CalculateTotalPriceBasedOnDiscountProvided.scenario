@@ -7,16 +7,6 @@
       <type>Applicant</type>
       <fieldData>
         <field-data>
-          <name>emailAddress</name>
-          <value>jon3@gmail.com</value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
-          <name>name</name>
-          <value>John Hardy</value>
-          <nature>1</nature>
-        </field-data>
-        <field-data>
           <name>numberOfTravelers</name>
           <value>6</value>
           <nature>1</nature>
@@ -58,22 +48,10 @@
     <expect-fact>
       <fieldValues>
         <expect-field>
-          <fieldName>totalPrice</fieldName>
-          <expected>3000</expected>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-      </fieldValues>
-      <name>bookingObject</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
           <fieldName>priceDiscount</fieldName>
           <expected>25</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>flight</name>
