@@ -6,6 +6,7 @@ import org.specialtripsagency.Flight
 
 rule "CalculateTotalPriceBasedOnDiscountProvided"
 	
+	ruleflow-group "total"
 	salience -10
 	no-loop true
 
