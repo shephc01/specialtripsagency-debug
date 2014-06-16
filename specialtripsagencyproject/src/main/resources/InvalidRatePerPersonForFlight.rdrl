@@ -4,6 +4,7 @@ import org.specialtripsagency.Rejection;
 
 rule "InvalidRatePerPersonForFlight"
 	dialect "mvel"
+	ruleflow-group "rejection"
 	when
 		Flight( ratePerPerson <= 0 || ratePerPerson >= 10000 || ratePerPerson == null )
 	then
