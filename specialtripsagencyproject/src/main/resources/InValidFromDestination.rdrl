@@ -1,7 +1,14 @@
 import java.lang.Number;
+import org.specialtripsagency.BookingObject;
+import org.specialtripsagency.Rejection;
+import org.specialtripsagency.TravelDetails;
 
 rule "InValidFromDestination"
 	dialect "mvel"
 	when
+		TravelDetails( fromDestination == "Congo" )
 	then
+		Rejection fact0 = new Rejection();
+		fact0.setReason( "Invalid 'From' Destination" );
+		insert( fact0 );
 end
