@@ -5,6 +5,9 @@ import org.specialtripsagency.Rejection;
 rule "FlightObjectWithoutRatePerPerson"
 	dialect "mvel"
 	when
-		Flight( ratePerPerson <= 0 || ratePerPerson >= 2000 )
+		Flight( ratePerPerson <= 0 || ratePerPerson >= 10000 || ratePerPerson == null )
 	then
+		Rejection fact0 = new Rejection();
+		fact0.setReason( "Invalid ratePerPerson received for flight!!!" );
+		insert( fact0 );
 end
