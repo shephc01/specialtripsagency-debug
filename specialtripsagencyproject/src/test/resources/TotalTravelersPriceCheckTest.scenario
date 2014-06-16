@@ -40,6 +40,16 @@
           <value></value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>applicant</name>
+          <value>=applicant</value>
+          <nature>2</nature>
+        </field-data>
+        <field-data>
+          <name>availableFlights</name>
+          <value>=flight</value>
+          <nature>2</nature>
+        </field-data>
       </fieldData>
       <name>bookingObject</name>
       <isModify>false</isModify>
