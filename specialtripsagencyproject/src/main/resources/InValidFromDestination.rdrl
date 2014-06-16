@@ -1,6 +1,6 @@
 import java.lang.Number;
 
-rule "NoEmailAddress"
+rule "InValidFromDestination"
 	dialect "mvel"
 	when
 	then
