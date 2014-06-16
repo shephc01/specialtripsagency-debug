@@ -4,6 +4,7 @@ import org.specialtripsagency.TravelDetails;
 
 rule "InvalidToDestination"
 	dialect "mvel"
+	ruleflow-group "rejection"
 	when
 		TravelDetails( toDestination not in ( "Edinburgh", "Glasgow" ) )
 	then
