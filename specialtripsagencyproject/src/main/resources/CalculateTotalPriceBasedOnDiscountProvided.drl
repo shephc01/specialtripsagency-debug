@@ -1,0 +1,20 @@
+import org.specialtripsagency.BookingObject
+import org.specialtripsagency.Applicant
+import org.specialtripsagency.Flight
+
+rule "CalculateTotalPriceBasedOnDiscountProvided"
+	
+	salience -10
+
+	when
+		applicant: Applicant()
+		flight: Flight(ratePerPerson != null)
+		bookingObject: BookingObject()
+	then
+		System.out.println("Running CalculateTotalPriceBasedOnDiscountProvided Rule... Calculating discount");
+		modify(bookingObject) {setTotalPrice(
+				bookingObject.getTotalPrice() +
+				(flight.getRatePerPerson() - flight.getPriceDiscount()) * applicant.getNumberOfTravelers())};
+end
+		
+	
