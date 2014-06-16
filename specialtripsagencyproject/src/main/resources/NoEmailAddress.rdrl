@@ -1,6 +1,6 @@
 import java.lang.Number;
 
-rule "TooYoung"
+rule "NoEmailAddress"
 	dialect "mvel"
 	when
 	then
