@@ -12,6 +12,8 @@ import org.specialtripsagency.Flight
 
 rule "TotalTravelersPriceCheck"
 
+    ruleflow-group "flightprice"
+
     when
         //conditions
         applicant : Applicant(numberOfTravelers > 1)
