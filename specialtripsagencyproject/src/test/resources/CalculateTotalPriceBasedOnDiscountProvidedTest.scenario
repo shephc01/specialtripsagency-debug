@@ -1,5 +1,5 @@
 <scenario>
-  <name>CalculateTotalPriceBasedOnDiscountProvided.scenario</name>
+  <name>CalculateTotalPriceBasedOnDiscountProvidedTest.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -9,6 +9,11 @@
         <field-data>
           <name>numberOfTravelers</name>
           <value>6</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>emailAddress</name>
+          <value>jon@gmail.com</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -63,7 +68,7 @@
           <fieldName>totalPrice</fieldName>
           <expected>3000</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>bookingObject</name>
