@@ -1,8 +1,10 @@
 <scenario>
-  <name>CalculateTotalPriceBasedOnDiscountProvided</name>
+  <name>CalculateTotalPriceBasedOnDiscountProvided.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <execution-trace/>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName></packageName>
