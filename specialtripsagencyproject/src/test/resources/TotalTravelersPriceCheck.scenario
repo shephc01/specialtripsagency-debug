@@ -57,10 +57,6 @@
       <name>bookingObject</name>
       <anonymous>false</anonymous>
     </expect-fact>
-    <expect-rule>
-      <ruleName>TotalTravelersPriceCheck</ruleName>
-      <expectedFire>true</expectedFire>
-    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
