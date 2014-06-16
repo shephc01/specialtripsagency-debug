@@ -13,6 +13,7 @@ import org.specialtripsagency.Flight
 rule "TotalTravelersPriceCheck"
 
     ruleflow-group "flightprice"
+    no-loop true
 
     when
         //conditions
