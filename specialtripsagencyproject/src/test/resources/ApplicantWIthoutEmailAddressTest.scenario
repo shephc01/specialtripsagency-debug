@@ -5,15 +5,29 @@
   <fixtures>
     <fact-data>
       <type>Applicant</type>
-      <fieldData/>
+      <fieldData>
+        <field-data>
+          <name>emailAddress</name>
+          <value></value>
+          <nature>1</nature>
+        </field-data>
+      </fieldData>
       <name>applicant</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
-    <expect-rule>
-      <ruleName>ApplicantWithoutEmailAddress</ruleName>
-      <expectedFire>true</expectedFire>
-    </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>reason</fieldName>
+          <expected>Invalid Email Address of Applicant!!!</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>Rejection</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>true</inclusive>
@@ -22,6 +36,9 @@
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>org.specialtripsagency.Applicant</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>org.specialtripsagency.Rejection</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
