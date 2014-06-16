@@ -10,7 +10,7 @@ rule "CalculateTotalPriceBasedOnDiscountProvided"
 
 	when
 		tempApplicantObj: Applicant(numberOfTravelers > 0)
-		flight: Flight(ratePerPerson > 0 && priceDiscount > 0)
+		flight: Flight(ratePerPerson > 0, priceDiscount > 0)
 		bookingObject: BookingObject(applicant==tempApplicantObj, availableFlights==flight)
 	then
 		System.out.println("Running CalculateTotalPriceBasedOnDiscountProvided Rule... Calculating discount");
