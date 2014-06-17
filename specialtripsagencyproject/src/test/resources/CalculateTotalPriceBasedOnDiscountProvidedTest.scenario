@@ -47,7 +47,7 @@
         </field-data>
         <field-data>
           <name>totalPrice</name>
-          <value></value>
+          <value>0</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
