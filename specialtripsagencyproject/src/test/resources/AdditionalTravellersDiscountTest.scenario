@@ -50,6 +50,11 @@
           <value>=applicant</value>
           <nature>2</nature>
         </field-data>
+        <field-data>
+          <name>totalPrice</name>
+          <value>0</value>
+          <nature>1</nature>
+        </field-data>
       </fieldData>
       <name>bookingObject</name>
       <isModify>false</isModify>
