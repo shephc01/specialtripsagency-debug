@@ -17,6 +17,8 @@ rule "CalculateTotalPriceBasedOnDiscountProvided"
 	then
 		System.out.println("Running CalculateTotalPriceBasedOnDiscountProvided Rule... Calculating discount");
                 System.out.println("bookingObject.getTotalPrice() value is: " + bookingObject.getTotalPrice());
+		System.out.println("flight.getRatePerPerson() value is: " + flight.getRatePerPerson());
+		System.out.println("flight.getPriceDiscount() value is: " + flight.getPriceDiscount());
 		modify(bookingObject) {setTotalPrice(
 				bookingObject.getTotalPrice() +
 				(flight.getRatePerPerson() - flight.getPriceDiscount()) * tempApplicantObj.getNumberOfTravelers())};
