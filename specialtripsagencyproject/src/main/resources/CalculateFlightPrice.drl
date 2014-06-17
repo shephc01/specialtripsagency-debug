@@ -3,8 +3,8 @@ package org.specialtripsagency
 
 //list any import classes here.
 import org.specialtripsagency.BookingObject
-import org.specialtripsagency.Applicant
-import org.specialtripsagency.Flight
+//import org.specialtripsagency.Applicant
+//import org.specialtripsagency.Flight
 
 
 //declare any global variables here
