@@ -28,6 +28,11 @@
           <value>350</value>
           <nature>1</nature>
         </field-data>
+        <field-data>
+          <name>priceDiscount</name>
+          <value>0</value>
+          <nature>1</nature>
+        </field-data>
       </fieldData>
       <name>flight</name>
       <isModify>false</isModify>
@@ -44,6 +49,11 @@
           <name>availableFlights</name>
           <value>=flight</value>
           <nature>2</nature>
+        </field-data>
+        <field-data>
+          <name>totalPrice</name>
+          <value>0</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>bookingObject</name>
