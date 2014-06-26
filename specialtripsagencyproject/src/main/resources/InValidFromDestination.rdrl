@@ -12,4 +12,5 @@ rule "InValidFromDestination"
 		Rejection fact0 = new Rejection();
 		fact0.setReason( "Sorry!!! We do not provide services from this destination." );
 		insert( fact0 );
+		System.out.println("Rejected due to Invalid From Destination");
 end
