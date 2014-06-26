@@ -1,0 +1,309 @@
+
+<form id="1921555086">
+<property name="subject" value=""/>
+<property name="name" value="org.specialtripsagency.specialtripsagencyprocess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="applicant_otherDetails" type="InputText" id="129623275">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;otherDetails (applicant)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="applicant/otherDetails"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="emailAddress" type="InputText" id="1308143910">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailAddress (emailAddress)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="emailAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="26" name="hotel_hotelName" type="InputText" id="438067049">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hotelName (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/hotelName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="bookingObject_totalPrice" type="InputTextInteger" id="1411321332">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalPrice (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/totalPrice"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="16" name="flight_priceDiscount" type="InputTextInteger" id="321454861">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priceDiscount (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/priceDiscount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="29" name="hotel_roomPrice" type="InputTextInteger" id="520679200">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;roomPrice (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/roomPrice"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="25" name="hotel_hotelId" type="InputTextInteger" id="1821866561">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hotelId (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/hotelId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="20" name="flight_targetCity" type="InputText" id="609975788">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;targetCity (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/targetCity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="applicant_emailAddress" type="InputText" id="350195993">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailAddress (applicant)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="applicant/emailAddress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="38" name="travelDetails_preferredDateOfArrival" type="InputText" id="1497752274">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;preferredDateOfArrival (travelDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="travelDetails/preferredDateOfArrival"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="bookingObject_additionalPriceDiscount" type="InputTextInteger" id="2110279048">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;additionalPriceDiscount (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/additionalPriceDiscount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="30" name="hotel_roomType" type="InputText" id="1515847462">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;roomType (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/roomType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="bookingObject_availableFlights" type="Subform" id="325487812">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;availableFlights (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/availableFlights"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="12" name="bookingObject_travelDetails" type="Subform" id="439868989">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;travelDetails (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/travelDetails"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="40" name="travelDetails_toDestination" type="InputText" id="1311796798">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;toDestination (travelDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="travelDetails/toDestination"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="31" name="numberOfTravelers" type="InputTextInteger" id="723152951">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfTravelers (numberOfTravelers)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="numberOfTravelers"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="24" name="hotel_duration" type="InputTextInteger" id="168394601">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;duration (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/duration"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="39" name="travelDetails_preferredDateOfDeparture" type="InputText" id="2103938314">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;preferredDateOfDeparture (travelDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="travelDetails/preferredDateOfDeparture"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="applicant_numberOfTravelers" type="InputTextInteger" id="730635402">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfTravelers (applicant)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="applicant/numberOfTravelers"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="bookingObject_availableHotels" type="Subform" id="1072510138">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;availableHotels (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/availableHotels"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="18" name="flight_returnDate" type="InputText" id="1268104982">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;returnDate (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/returnDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="flight_planeId" type="InputTextInteger" id="311315795">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;planeId (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/planeId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="21" name="flight_travelDate" type="InputText" id="84677220">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;travelDate (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/travelDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="34" name="preferredDateOfDeparture" type="InputText" id="1846793935">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;preferredDateOfDeparture (preferredDateOfDeparture)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="preferredDateOfDeparture"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="bookingObject_bookingId" type="InputTextInteger" id="532916445">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bookingId (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/bookingId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="37" name="travelDetails_fromDestination" type="InputText" id="1220284651">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fromDestination (travelDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="travelDetails/fromDestination"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="fromDestination" type="InputText" id="1188396547">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fromDestination (fromDestination)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="fromDestination"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="flight_ratePerPerson" type="InputTextInteger" id="43039262">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ratePerPerson (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/ratePerPerson"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="23" name="hotel_breakfastIncluded" type="CheckBox" id="647000678">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;breakfastIncluded (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/breakfastIncluded"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="36" name="totalPrice" type="InputTextInteger" id="515523854">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalPrice (totalPrice)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="totalPrice"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="bookingObject_applicant" type="Subform" id="552722721">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicant (bookingObject)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookingObject/applicant"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="19" name="flight_startCity" type="InputText" id="80781218">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;startCity (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/startCity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="28" name="hotel_priceDiscount" type="InputTextInteger" id="1503788595">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priceDiscount (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/priceDiscount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="additionalPriceDiscount" type="InputTextInteger" id="2105347040">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;additionalPriceDiscount (additionalPriceDiscount)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="additionalPriceDiscount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="27" name="hotel_location" type="InputText" id="101923994">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;location (hotel)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="hotel/location"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="flight_company" type="InputText" id="1986939955">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;company (flight)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="flight/company"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="applicant_name" type="InputText" id="623296292">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (applicant)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="applicant/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="applicantName" type="InputText" id="901202563">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicantName (applicantName)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="applicantName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="35" name="toDestination" type="InputText" id="2060873508">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;toDestination (toDestination)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="toDestination"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="32" name="otherDetails" type="InputText" id="298314798">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;otherDetails (otherDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="otherDetails"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="33" name="preferredDateOfArrival" type="InputText" id="1300160531">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;preferredDateOfArrival (preferredDateOfArrival)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="preferredDateOfArrival"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="additionalPriceDiscount" value="java.lang.Integer" id="additionalPriceDiscount"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="applicant" value="org.specialtripsagency.Applicant" id="applicant"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="applicantName" value="java.lang.String" id="applicantName"/>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="bookingObject" value="org.specialtripsagency.BookingObject" id="bookingObject"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="emailAddress" value="java.lang.String" id="emailAddress"/>
+<dataHolder inputId="" name="#A7E690" type="dataModelerEntry" outId="flight" value="org.specialtripsagency.Flight" id="flight"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="fromDestination" value="java.lang.String" id="fromDestination"/>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="hotel" value="org.specialtripsagency.Hotel" id="hotel"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="numberOfTravelers" value="java.lang.Integer" id="numberOfTravelers"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="otherDetails" value="java.lang.String" id="otherDetails"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="preferredDateOfArrival" value="java.lang.String" id="preferredDateOfArrival"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="preferredDateOfDeparture" value="java.lang.String" id="preferredDateOfDeparture"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="toDestination" value="java.lang.String" id="toDestination"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="totalPrice" value="java.lang.Integer" id="totalPrice"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="travelDetails" value="org.specialtripsagency.TravelDetails" id="travelDetails"/>
+</form>
