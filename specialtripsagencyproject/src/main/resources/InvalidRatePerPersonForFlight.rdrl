@@ -11,4 +11,5 @@ rule "InvalidRatePerPersonForFlight"
 		Rejection fact0 = new Rejection();
 		fact0.setReason( "Invalid ratePerPerson received for flight!!!" );
 		insert( fact0 );
+		System.out.print.ln("Rejected as Invalid rate Per Person");
 end
