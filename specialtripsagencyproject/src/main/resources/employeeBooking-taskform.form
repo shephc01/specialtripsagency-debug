@@ -1,0 +1,73 @@
+
+<form id="2119994820">
+<property name="subject" value=""/>
+<property name="name" value="employeeBooking-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="bookingObject_availableHotels" type="Subform" id="493125844">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;availableHotels (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/availableHotels"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="4" name="bookingObject_bookingId" type="InputTextInteger" id="441309897">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bookingId (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/bookingId"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="reviewRequiredDetails" type="InputText" id="1535913968">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reviewRequiredDetailsOut (reviewRequiredDetails)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="reviewRequiredDetailsOut"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="bookingObject_totalPrice" type="InputTextInteger" id="1790862010">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;totalPrice (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/totalPrice"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="bookingObject_travelDetails" type="Subform" id="351836538">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;travelDetails (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/travelDetails"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="2" name="bookingObject_availableFlights" type="Subform" id="1873354681">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;availableFlights (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/availableFlights"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="bookingObject_applicant" type="Subform" id="1234995206">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicant (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/applicant"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="7" name="reviewRequired" type="CheckBox" id="1710868700">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reviewRequiredOut (reviewRequired)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="reviewRequiredOut"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="bookingObject_additionalPriceDiscount" type="InputTextInteger" id="307519506">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;additionalPriceDiscount (bookingObject)quot;"/>
+<property name="inputBinding" value="taskBookingObject/additionalPriceDiscount"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="taskBookingObject" name="#9BCAFA" type="dataModelerEntry" outId="" value="org.specialtripsagency.BookingObject" id="bookingObject"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="reviewRequiredOut" value="java.lang.Boolean" id="reviewRequired"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="reviewRequiredDetailsOut" value="java.lang.String" id="reviewRequiredDetails"/>
+</form>
