@@ -1,0 +1,7 @@
+import java.lang.Number;
+
+rule "RetractApplicant"
+	dialect "mvel"
+	when
+	then
+end
