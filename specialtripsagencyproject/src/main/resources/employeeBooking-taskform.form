@@ -4,7 +4,7 @@
 <property name="name" value="employeeBooking-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="bookingObject_bookingId" type="InputTextInteger" id="441309897">
+<field position="0" name="bookingObject_bookingId" type="InputTextInteger" id="441309897">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -23,7 +23,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="2" name="applicant_name" type="InputText" id="735353827">
+<field position="1" name="applicant_name" type="InputText" id="735353827">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -44,7 +44,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="applicant_numberOfTravelers" type="InputTextInteger" id="2060315446">
+<field position="2" name="applicant_numberOfTravelers" type="InputTextInteger" id="2060315446">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -62,7 +62,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="4" name="applicant_emailAddress" type="InputText" id="2142727427">
+<field position="3" name="applicant_emailAddress" type="InputText" id="2142727427">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -83,7 +83,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="flight_company" type="InputText" id="904846600">
+<field position="4" name="flight_company" type="InputText" id="904846600">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -104,7 +104,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="flight_travelDate" type="InputText" id="1938406507">
+<field position="5" name="flight_travelDate" type="InputText" id="1938406507">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -125,7 +125,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="flight_returnDate" type="InputText" id="671458010">
+<field position="6" name="flight_returnDate" type="InputText" id="671458010">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
@@ -147,7 +147,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="hotel_hotelName" type="InputText" id="207677364">
+<field position="7" name="hotel_hotelName" type="InputText" id="207677364">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -168,7 +168,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="hotel_location" type="InputText" id="1433929382">
+<field position="8" name="hotel_location" type="InputText" id="1433929382">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -189,7 +189,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="hotel_roomType" type="InputText" id="1999046320">
+<field position="9" name="hotel_roomType" type="InputText" id="1999046320">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -210,7 +210,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="hotel_breakfastIncluded" type="CheckBox" id="1820018241">
+<field position="10" name="hotel_breakfastIncluded" type="CheckBox" id="1820018241">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
@@ -231,7 +231,7 @@
 <property name="param4" value=""/>
 <property name="param5" value=""/>
 </field>
-<field position="12" name="travelDetails_preferredDateOfDeparture" type="InputText" id="1446040067">
+<field position="11" name="travelDetails_preferredDateOfDeparture" type="InputText" id="1446040067">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -252,7 +252,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name="travelDetails_preferredDateOfArrival" type="InputText" id="588352481">
+<field position="12" name="travelDetails_preferredDateOfArrival" type="InputText" id="588352481">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
@@ -274,7 +274,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="14" name="travelDetails_fromDestination" type="InputText" id="1160568205">
+<field position="13" name="travelDetails_fromDestination" type="InputText" id="1160568205">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -295,7 +295,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="travelDetails_toDestination" type="InputText" id="742522411">
+<field position="14" name="travelDetails_toDestination" type="InputText" id="742522411">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
@@ -317,7 +317,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="16" name="bookingObject_totalPrice" type="InputTextInteger" id="1790862010">
+<field position="15" name="bookingObject_totalPrice" type="InputTextInteger" id="1790862010">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -336,7 +336,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="17" name="bookingObject_additionalPriceDiscount" type="InputTextInteger" id="307519506">
+<field position="16" name="bookingObject_additionalPriceDiscount" type="InputTextInteger" id="307519506">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -355,7 +355,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="18" name="originalTotalPrice" type="InputTextInteger" id="807371338">
+<field position="17" name="originalTotalPrice" type="InputTextInteger" id="807371338">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -374,7 +374,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="19" name="bookingObject_reviewerComment" type="InputText" id="1393633397">
+<field position="18" name="bookingObject_reviewerComment" type="InputText" id="1393633397">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -395,7 +395,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="20" name=":decorator_0" type="Separator" id="1540529977">
+<field position="19" name=":decorator_0" type="Separator" id="1540529977">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value=""/>
@@ -403,7 +403,7 @@
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="21" name="reviewRequired" type="CheckBox" id="1710868700">
+<field position="20" name="reviewRequired" type="CheckBox" id="1710868700">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -419,7 +419,7 @@
 <property name="outputBinding" value="reviewRequiredOut"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="22" name="reviewRequiredDetails" type="InputTextArea" id="1535913968">
+<field position="21" name="reviewRequiredDetails" type="InputTextArea" id="1535913968">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value=""/>
@@ -442,19 +442,19 @@
 <property name="outputBinding" value="reviewRequiredDetailsOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="23" name=":decorator_1" type="Separator" id="1303167453">
+<field position="22" name=":decorator_1" type="Separator" id="1303167453">
 <property name="fieldRequired" value="false"/>
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="24" name="bookingObject_bookingConfirmed" type="CheckBox" id="595101484">
+<field position="23" name="bookingObject_bookingConfirmed" type="CheckBox" id="595101484">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Is Booking Confirmed? Check this box only if the booking is completedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Is Booking Confirmed? Check this box only if the booking is completedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -464,24 +464,6 @@
 <property name="inputBinding" value="taskBookingObject/bookingConfirmed"/>
 <property name="outputBinding" value="bookingConfirmedOut"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="0" name="908919969" type="HTMLEditor" id="908919969">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="height" value=""/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Employee Task - Help Textquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="size" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="taskHelpTextEmployeeHTML"/>
-<property name="outputBinding" value=""/>
-<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="taskApplicant" name="#0000A0" type="dataModelerEntry" outId="" value="org.specialtripsagency.Applicant" id="applicant"/>
 <dataHolder inputId="taskBookingObject" name="#9BCAFA" type="dataModelerEntry" outId="" value="org.specialtripsagency.BookingObject" id="bookingObject"/>
