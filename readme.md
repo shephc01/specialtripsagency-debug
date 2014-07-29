@@ -1,4 +1,4 @@
 Repository Init Content
 =======================
 
-Your project description here.
+This is still work in progress. Please get in touch with npatel@redhat.com if you need more info on this.
