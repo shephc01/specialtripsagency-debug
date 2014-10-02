@@ -27,14 +27,3 @@ rule "ApplicantWithoutEmailAddress"
         fact0.setReason( "Invalid Email Address of Applicant!!!" );
         insert( fact0 );	
 end
-
-//rule "FlightWithoutRatePerPerson"
-//    //include attributes such as "salience" here...
-//    when
-//        //conditions
-//        flight : Flight(ratePerPerson == 0 || ratePerPerson == null || ratePerPerson > 10000)
-//    then
-//        //actions
-//                System.out.println("\nRunning FlightWithoutRatePerPerson RULE");
-//		System.out.println("Warning!!! flight object does not have a valid price.. The price is: [" + flight.getRatePerPerson() + "]");
-//end
