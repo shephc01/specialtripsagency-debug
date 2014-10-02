@@ -8,13 +8,6 @@
   <packaging>kjar</packaging>
   <name>specialtripsagencyproject</name>
   <description>My specialtrips agency Project</description>
-  <dependencies>
-    <dependency>
-      <groupId>special-trips</groupId>
-      <artifactId>acmeDataModel</artifactId>
-      <version>1.0</version>
-    </dependency>
-  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
