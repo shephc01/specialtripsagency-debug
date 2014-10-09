@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.specialtripsagency</groupId>
   <artifactId>specialtripsagencyproject</artifactId>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
   <packaging>kjar</packaging>
   <name>specialtripsagencyproject</name>
   <description>My specialtrips agency Project</description>
