@@ -1,0 +1,55 @@
+
+<form id="307574193">
+<property name="subject" value=""/>
+<property name="name" value="specialtripsagencyproject.compensateService-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="cancelFlightOutput" type="InputTextInteger" id="598674446">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cancelFlightOutput (cancelFlightOutput)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="cancelFlightOutput"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="cancelFlightInput" type="InputText" id="1189483771">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cancelFlightInput (cancelFlightInput)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="cancelFlightInput"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="bookFlightInput" type="InputText" id="133472406">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bookFlightInput (bookFlightInput)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookFlightInput"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="moneyTaken" type="CheckBox" id="402951156">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;moneyTaken (moneyTaken)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="moneyTaken"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="percentDiscount" type="InputTextInteger" id="1388425564">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;percentDiscount (percentDiscount)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="percentDiscount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="bookFlightOutput" type="InputText" id="757211356">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bookFlightOutput (bookFlightOutput)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bookFlightOutput"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="bookFlightInput" value="java.lang.String" id="bookFlightInput"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="bookFlightOutput" value="java.lang.String" id="bookFlightOutput"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="cancelFlightInput" value="java.lang.String" id="cancelFlightInput"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="cancelFlightOutput" value="java.lang.Integer" id="cancelFlightOutput"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="moneyTaken" value="java.lang.Boolean" id="moneyTaken"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="percentDiscount" value="java.lang.Integer" id="percentDiscount"/>
+</form>
