@@ -484,7 +484,7 @@
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="taskPaymentDetails/creditCardNumber"/>
-<property name="outputBinding" value="paymentDetails/creditCardNumber"/>
+<property name="outputBinding" value="creditCardNumberOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="25" name="paymentDetails_expiryDate" type="InputText" id="1493986797">
@@ -506,7 +506,7 @@
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="taskPaymentDetails/expiryDate"/>
-<property name="outputBinding" value="paymentDetails/expiryDate"/>
+<property name="outputBinding" value="expiryDateOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="26" name="paymentDetails_nameOfCardHolder" type="InputText" id="1110682976">
@@ -527,7 +527,7 @@
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="taskPaymentDetails/nameOfCardHolder"/>
-<property name="outputBinding" value="paymentDetails/nameOfCardHolder"/>
+<property name="outputBinding" value="nameOfCardHolderOut"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="27" name=":decorator_3" type="Separator" id="1116096108">
@@ -555,6 +555,9 @@
 </field>
 <dataHolder inputId="taskApplicant" name="#0000A0" type="dataModelerEntry" outId="" value="org.specialtripsagency.Applicant" id="applicant"/>
 <dataHolder inputId="taskBookingObject" name="#9BCAFA" type="dataModelerEntry" outId="" value="org.specialtripsagency.BookingObject" id="bookingObject"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="creditCardDetailsOut" value="java.lang.String" id="creditCardDetails"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="creditCardNumberOut" value="java.lang.String" id="creditCardNumber"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="expiryDateOut" value="java.lang.String" id="expiryDate"/>
 <dataHolder inputId="taskFlight" name="#0000A0" type="dataModelerEntry" outId="" value="org.specialtripsagency.Flight" id="flight"/>
 <dataHolder inputId="taskHelpTextEmployeeHTML" name="#0000A0" type="basicType" outId="" value="java.lang.String" id="helpTextEmployeeHTML"/>
 <dataHolder inputId="taskHotel" name="#0000A0" type="dataModelerEntry" outId="" value="org.specialtripsagency.Hotel" id="hotel"/>
