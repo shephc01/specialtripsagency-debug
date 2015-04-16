@@ -2,7 +2,7 @@
   <kbase name="travelagency" default="true" eventProcessingMode="stream" equalsBehavior="identity">
     <ksession name="travelagencySession" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
-        <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="travelagency"/>
+        <workItemHandler type="new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()" name="Email"/>
       </workItemHandlers>
     </ksession>
   </kbase>
