@@ -8,7 +8,7 @@
     <marshalling-strategies>
         <marshalling-strategy>
             <resolver>mvel</resolver>
-            <identifier>enter value</identifier>
+            <identifier>new org.specialtripsagency.util.ProjectJPAResolverStrategy(classLoader)</identifier>
             <parameters/>
         </marshalling-strategy>
     </marshalling-strategies>
