@@ -16,7 +16,7 @@ public class Flight extends java.lang.Object implements java.io.Serializable {
     
     @Id 
     @GeneratedValue( strategy=GenerationType.AUTO )
-    private int fid;
+    private Integer fid;
     
     @org.kie.api.definition.type.Label(value = "Company Name")
     @org.kie.api.definition.type.Position(value = 0)
@@ -65,11 +65,11 @@ public class Flight extends java.lang.Object implements java.io.Serializable {
     }
     
     
-    public int getFid() {
+    public Integer getFid() {
         return fid;
      }
 
-     public void setFid(int fid) {
+     public void setFid(Integer fid) {
         this.fid = fid;
      }
     

@@ -16,7 +16,7 @@ public class Hotel extends java.lang.Object implements java.io.Serializable {
     
     @Id 
     @GeneratedValue( strategy=GenerationType.AUTO )
-    private int hid;
+    private Integer hid;
     
     @org.kie.api.definition.type.Label(value = "Is Breakfast Included")
     @org.kie.api.definition.type.Position(value = 6)
@@ -66,11 +66,11 @@ public class Hotel extends java.lang.Object implements java.io.Serializable {
 
 
     
-    public int getHid() {
+    public Integer getHid() {
         return hid;
      }
 
-     public void setHid(int hid) {
+     public void setHid(Integer hid) {
         this.hid = hid;
      }
      

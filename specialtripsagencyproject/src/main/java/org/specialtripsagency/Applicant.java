@@ -17,7 +17,7 @@ public class Applicant extends java.lang.Object implements java.io.Serializable 
     
     @Id 
     @GeneratedValue( strategy=GenerationType.AUTO )
-    private int appId;
+    private Integer appId;
     
     @org.kie.api.definition.type.Label(value = "Email Address")
     @org.kie.api.definition.type.Position(value = 1)
@@ -45,11 +45,11 @@ public class Applicant extends java.lang.Object implements java.io.Serializable 
         this.otherDetails = otherDetails;
     }
   
-    public int getAppId() {
+    public Integer getAppId() {
         return appId;
      }
 
-     public void setAppId(int appId) {
+     public void setAppId(Integer appId) {
         this.appId = appId;
      }
     

@@ -19,7 +19,7 @@ public class BookingObject extends java.lang.Object implements java.io.Serializa
     
     @Id
     @GeneratedValue( strategy= GenerationType.AUTO ) 	
-    private int boId;
+    private Integer boId;
     
     @org.kie.api.definition.type.Label(value = "Additional Price Discount Provided On Package")
     @org.kie.api.definition.type.Position(value = 5)
@@ -84,11 +84,11 @@ public class BookingObject extends java.lang.Object implements java.io.Serializa
 
 
     
-    public int getBoId( ) {
+    public Integer getBoId( ) {
         return boId;
      }
      
-     public void setBoId(int boId)  {
+     public void setBoId(Integer boId)  {
         this.boId = boId;
      }
      

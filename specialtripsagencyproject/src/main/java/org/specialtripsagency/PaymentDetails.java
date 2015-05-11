@@ -16,7 +16,7 @@ public class PaymentDetails  implements java.io.Serializable {
     
     @Id 
     @GeneratedValue( strategy=GenerationType.AUTO )
-    private int pdId;
+    private Integer pdId;
     
     @org.kie.api.definition.type.Label(value = "Credit Card Number")
     @org.kie.api.definition.type.Position(value = 0)
@@ -41,11 +41,11 @@ public class PaymentDetails  implements java.io.Serializable {
 
 
     
-    public int getPdId() {
+    public Integer getPdId() {
         return pdId;
      }
 
-     public void setPdId(int pdId) {
+     public void setPdId(Integer pdId) {
         this.pdId = pdId;
      }
      

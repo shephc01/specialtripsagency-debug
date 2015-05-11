@@ -16,7 +16,7 @@ public class TravelDetails extends java.lang.Object implements java.io.Serializa
     
     @Id 
     @GeneratedValue( strategy=GenerationType.AUTO )
-    private int tdId;
+    private Integer tdId;
     
     @org.kie.api.definition.type.Label(value = "From Destination")
     @org.kie.api.definition.type.Position(value = 0)
@@ -46,11 +46,11 @@ public class TravelDetails extends java.lang.Object implements java.io.Serializa
 
 
     
-    public int getTdId() {
+    public Integer getTdId() {
         return tdId;
      }
 
-     public void setTdId(int id) {
+     public void setTdId(Integer id) {
         this.tdId = tdId;
      }
      
